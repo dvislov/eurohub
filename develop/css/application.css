@@ -549,6 +549,19 @@ a {
 .video-voices {
   color: #5faa02;
 }
+.video-voices .icon-thumbsup {
+  margin-right: 0.5rem;
+}
+.video-views .icon-eye {
+  margin-right: 0.5rem;
+  position: relative;
+  top: 0.2rem;
+}
+.video-date .icon-clock {
+  margin-right: 0.5rem;
+  position: relative;
+  top: 0.2rem;
+}
 .video-list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -590,6 +603,9 @@ a {
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+.video-list .video-views {
+  margin-right: 0.5rem;
 }
 .button-more {
   border: none;
