@@ -430,13 +430,118 @@ th {
   box-sizing: border-box;
 }
 html {
-  font-size: 16px;
+  font-size: 10px;
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 7px;
+  }
+}
+a {
+  color: #fff;
 }
 .page {
   color: #fff;
+  background-color: #1e1e1e;
 }
 .page-content {
-  max-width: 640px;
+  max-width: 480px;
   min-width: 320px;
   margin: 0 auto;
+  padding: 0 12px;
+}
+.header {
+  height: 46px;
+  background-color: #1e1e1e;
+  text-align: center;
+}
+.logo {
+  display: block;
+  padding: 8px 0;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.logo-span {
+  display: inline-block;
+  background-color: #ff9901;
+  padding: 2px 4px;
+  border-radius: 2px;
+  color: #000;
+  margin-left: 6px;
+}
+.info {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  text-align: center;
+  margin: 1.3rem 0;
+  background-color: #141414;
+}
+.text-header {
+  font-size: 2.1rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 1rem 0 2.3rem;
+}
+.video-image {
+  margin-bottom: 1.1rem;
+  position: relative;
+}
+.video-screen {
+  max-width: 100%;
+}
+.video-length {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 2.6rem;
+  line-height: 3.1rem;
+  padding: 0.2rem 1rem;
+  background-color: rgba(0,0,0,0.5);
+}
+.video-play-button {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 3.6rem;
+  background-color: rgba(0,0,0,0.5);
+  padding: 1.6rem 2.6rem;
+  border-radius: 1.5rem;
+  white-space: nowrap;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+      -ms-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+.video-play-button-triangle {
+  display: inline-block;
+  vertical-align: middle;
+}
+.video-info {
+  background-color: #000;
+  padding: 1.4rem;
+  margin-bottom: 1.7rem;
+}
+.video-title {
+  font-size: 2.1rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+  color: #ff9901;
+  margin-bottom: 1.8rem;
+}
+.video-meta {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.8rem;
+  color: #888;
+}
+.video-voices {
+  color: #5faa02;
 }
