@@ -34,7 +34,22 @@ html
             .video-views 3,273,345
             .video-date 3 года назад
 
-
       h1.text-header ЛУЧШЕЕ ЗА СЕГОДНЯ
+
+      - var n = 0
+      .video-list
+        while n < 6
+          .video
+            .video-image
+              img.video-screen(src="http://lorempixel.com/640/480/fashion/")
+              .video-length 12:54
+            .video-info
+              .video-title Маша лижет мороженое
+              .video-meta
+                .video-views 3,273,345 просмотров
+                .video-voices 95%
+          - n++
+
+
 
     include shared/footer

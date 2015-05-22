@@ -475,7 +475,8 @@ a {
   font-size: 2.2rem;
   line-height: 2.6rem;
   text-align: center;
-  margin: 1.3rem 0;
+  padding: 1.3rem 0;
+  margin: 0;
   background-color: #141414;
 }
 .text-header {
@@ -529,6 +530,9 @@ a {
   font-weight: bold;
   color: #ff9901;
   margin-bottom: 1.8rem;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
 }
 .video-meta {
   display: -webkit-box;
@@ -544,4 +548,42 @@ a {
 }
 .video-voices {
   color: #5faa02;
+}
+.video-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.video-list .video {
+  width: 48%;
+  margin-bottom: 12px;
+}
+.video-list .video-image {
+  margin-bottom: 0;
+}
+.video-list .video-length {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding: 0.1rem 0.4rem;
+}
+.video-list .video-info {
+  background-color: transparent;
+  padding: 1rem 0 0;
+}
+.video-list .video-title {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+.video-list .video-meta {
+  font-size: 1.4rem;
 }
