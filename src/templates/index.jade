@@ -2,43 +2,11 @@ doctype html
 html
   head
     include shared/head
-  body.page
+  body.page.page-type-list
 
     include shared/header
 
     .page-content
-
-      p.info
-        | Доступ к сайту http://Eurohub.com
-        br
-        | Стоимость 20руб. с учетом НДС в день
-        br
-        | Ваш номер +79173227635. Нажатием кнопки смотреть вы соглашаетесь с&nbsp;
-        a(href="")
-          | Условиями предоставления подписки
-
-      h1.text-header Видео дня
-
-      .video
-        .video-image
-          img.video-screen(src="http://lorempixel.com/640/480/fashion/")
-          .video-length 12:54
-          .video-play-button
-            | Смотреть
-            span.video-play-button-triangle &nbsp;►
-
-        .video-info
-          .video-title Маша лижет мороженое
-          .video-meta
-            .video-voices
-              i.icon-thumbsup
-              | 95%
-            .video-views
-              i.icon-eye
-              | 3,273,345
-            .video-date
-              i.icon-clock
-              | 3 года назад
 
       h1.text-header ЛУЧШЕЕ ЗА СЕГОДНЯ
 
@@ -63,5 +31,3 @@ html
       section.annotation
         h2.annotation-header Твердый альтиметр: предпосылки и развитие
         p.annotation-text Инерция ротора позволяет исключить из рассмотрения лазерный крен. Ротор косвенно даёт большую проекцию на оси, чем математический маятник. Момент стабилен. Последнее векторное равенство известно.
-
-    include shared/footer
