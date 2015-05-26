@@ -488,6 +488,12 @@ a {
   text-align: center;
   padding: 1rem 0 2.3rem;
 }
+.video {
+  margin-top: 2rem;
+}
+video {
+  max-width: 100%;
+}
 .video-image {
   margin-bottom: 1.1rem;
   position: relative;
@@ -536,6 +542,7 @@ a {
   overflow: hidden;
   width: 100%;
   text-overflow: ellipsis;
+  text-decoration: none;
 }
 .video-meta {
   display: -webkit-box;
@@ -581,9 +588,14 @@ a {
 .video-list .video {
   width: 48%;
   margin-bottom: 12px;
+  margin-top: 0;
 }
 .video-list .video-image {
   margin-bottom: 0;
+}
+.video-list .video-play-button {
+  border-radius: 4rem;
+  text-align: center;
 }
 .video-list .video-length {
   font-size: 1.2rem;

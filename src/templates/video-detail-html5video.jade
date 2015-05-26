@@ -19,11 +19,8 @@ html
 
       .video
         .video-image
-          img.video-screen(src="http://lorempixel.com/640/480/fashion/")
-          .video-length 12:54
-          .video-play-button
-            | Смотреть
-            span.video-play-button-triangle &nbsp;►
+          video(poster="http://lorempixel.com/640/480/fashion/" controls="controls" width="100%")
+            source(src="http://video.webmfiles.org/big-buck-bunny_trailer.webm")
 
         .video-info
           .video-title Маша лижет мороженое
